@@ -7,10 +7,10 @@ import FooterColumns from '@/components/blocks/footer-columns';
 export const metadata: Metadata = {
   title: 'Contact | Harris Landscaping & Gardens',
   description:
-    'Get your free, obligation-free landscaping quote from Harris Landscaping & Gardens. Serving Campbelltown, Camden, Narellan, Picton and the wider South-West Sydney region.',
+    'Get a free, obligation-free landscaping quote from Harris Landscaping & Gardens. Serving Campbelltown, Camden, Narellan, Picton and the wider South-West Sydney region.',
 };
 
-export default function Page() {
+export default function ContactPage() {
   return (
     <>
       <Navbar
@@ -46,28 +46,9 @@ export default function Page() {
         email="info@harrislandscaping.com.au"
         phone="0400 000 000"
         columns={[
-          { heading: 'Services', links: [
-            { href: '/services#paving', label: 'Paving' },
-            { href: '/services#turf-installation', label: 'Turf Installation' },
-            { href: '/services#retaining-walls', label: 'Retaining Walls' },
-            { href: '/services#decking', label: 'Decking' },
-            { href: '/services#garden-design', label: 'Garden Design' },
-            { href: '/services#full-outdoor-transformations', label: 'Full Outdoor Transformations' },
-          ] },
-          { heading: 'Service Areas', links: [
-            { href: '/service-areas/campbelltown', label: 'Campbelltown' },
-            { href: '/service-areas/camden', label: 'Camden' },
-            { href: '/service-areas/narellan', label: 'Narellan' },
-            { href: '/service-areas/picton', label: 'Picton' },
-            { href: '/service-areas/ingleburn', label: 'Ingleburn' },
-            { href: '/service-areas/macarthur', label: 'Macarthur Region' },
-          ] },
-          { heading: 'Company', links: [
-            { href: '/about', label: 'About Us' },
-            { href: '/gallery', label: 'Project Gallery' },
-            { href: '/contact', label: 'Contact Us' },
-            { href: '/contact', label: 'Get a Free Quote' },
-          ] },
+          { heading: 'Services', links: [{ href: '/services#paving', label: 'Paving' }, { href: '/services#turf-installation', label: 'Turf Installation' }, { href: '/services#retaining-walls', label: 'Retaining Walls' }, { href: '/services#decking', label: 'Decking' }, { href: '/services#garden-design', label: 'Garden Design' }, { href: '/services#full-outdoor-transformations', label: 'Full Outdoor Transformations' }] },
+          { heading: 'Service Areas', links: [{ href: '/service-areas/campbelltown', label: 'Campbelltown' }, { href: '/service-areas/camden', label: 'Camden' }, { href: '/service-areas/narellan', label: 'Narellan' }, { href: '/service-areas/picton', label: 'Picton' }, { href: '/service-areas/ingleburn', label: 'Ingleburn' }, { href: '/service-areas/macarthur', label: 'Macarthur Region' }] },
+          { heading: 'Company', links: [{ href: '/about', label: 'About Us' }, { href: '/gallery', label: 'Project Gallery' }, { href: '/contact', label: 'Contact Us' }, { href: '/contact', label: 'Get a Free Quote' }] },
         ]}
         copyright="© 2026 Harris Landscaping & Gardens. All rights reserved."
       />
